@@ -1,0 +1,28 @@
+{
+  "name": "agent-recess",
+  "version": "0.1.0",
+  "description": "A coding-agent hook that notices long sessions and suggests a break, written by a local Gemma model.",
+  "type": "module",
+  "bin": {
+    "agent-recess": "bin/agent-recess.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "hooks",
+    "gemma",
+    "ollama",
+    "break-reminder"
+  ],
+  "license": "MIT"
+}
