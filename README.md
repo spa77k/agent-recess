@@ -1,5 +1,7 @@
 # agent-recess
 
+English | [日本語](README.ja.md)
+
 A hook for Claude Code and Codex CLI that notices when you've been pairing with your coding agent for too long — and tells you to go touch grass.
 
 The suggestion is written on your own machine by **Gemma 4 running in Ollama**, and it fits the actual weather outside:
