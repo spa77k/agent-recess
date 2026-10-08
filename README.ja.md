@@ -1,6 +1,6 @@
 # agent-recess
 
-[English](README.md) | 日本語
+[English](README.md) | 日本語 | [한국어](README.ko.md) | [简体中文](README.zh-CN.md)
 
 Claude CodeとCodex CLIのフックです。コーディングエージェントとの作業が長く続いていることに気づき、「外に出よう」とすすめます。
 
@@ -101,7 +101,7 @@ agent-recess preview
 | `breakGapMinutes` | `15` | 休憩とみなす、何もしていない時間（分） |
 | `cooldownMinutes` | `30` | 次の提案までにあける時間（分） |
 | `model` | `gemma4:e2b-it-qat` | Ollamaのモデル名 |
-| `language` | `en` | `en` か `ja` |
+| `language` | `en` | `en`、`ja`、`ko`、`zh` |
 
 Ollamaが `localhost:11434` 以外で動いている場合は、環境変数 `OLLAMA_HOST` を設定します。
 

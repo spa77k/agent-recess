@@ -1,6 +1,6 @@
 # agent-recess
 
-English | [日本語](README.ja.md)
+English | [日本語](README.ja.md) | [한국어](README.ko.md) | [简体中文](README.zh-CN.md)
 
 A hook for Claude Code and Codex CLI that notices when you've been pairing with your coding agent for too long — and tells you to go touch grass.
 
@@ -103,7 +103,7 @@ Create `~/.agent-recess/config.json`. Every key is optional.
 | `breakGapMinutes` | `15` | Idle time that counts as a break |
 | `cooldownMinutes` | `30` | Minimum time between suggestions |
 | `model` | `gemma4:e2b-it-qat` | Any Ollama model name |
-| `language` | `en` | `en` or `ja` |
+| `language` | `en` | `en`, `ja`, `ko` or `zh` |
 
 Set `OLLAMA_HOST` if Ollama runs somewhere other than `localhost:11434`.
 

@@ -4,7 +4,7 @@ const OLLAMA_URL = process.env.OLLAMA_HOST
   ? new URL("/api/generate", process.env.OLLAMA_HOST.replace(/^(?!https?:\/\/)/, "http://"))
   : new URL("http://localhost:11434/api/generate");
 
-const LANGUAGES = { en: "English", ja: "Japanese" };
+const LANGUAGES = { en: "English", ja: "Japanese", ko: "Korean", zh: "Simplified Chinese" };
 
 function describeWeather(w) {
   if (!w) return "Weather: unknown (no location configured).";
